@@ -27,9 +27,9 @@ This repository is a check list which is the first term practices in KB IT's you
 | 04 부트스트랩 | vue_04 | ✅ | ☐ |
 | 05 스타일 처리 | vue_05 | ✅ | ✅ |
 | 06 단일 파일 컴포넌트 | vue_06 | ✅ | ☐ |
-| 07 컴포넌트 심화 | vue_07 | ☐ | ☐ |
-| 08 Composition API | vue_08 | ✅ | ☐ |
-| 09 라우팅 | vue_09 | ☐ | ☐ |
+| 07 컴포넌트 심화 | vue_07 | ✅ | ☐ |
+| 08 Composition API | vue_08 | ✅ | ✅ |
+| 09 라우팅 | vue_09 | ✅ | ☐ |
 | 10 Axios | vue_10 | ☐ | ☐ |
 | 11 라우트와 Axios 연동 | vue_11 | ☐ | ☐ |
 | 12 Pinia 상태 관리 | vue_12 | ☐ | ☐ |
