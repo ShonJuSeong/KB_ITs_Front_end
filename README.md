@@ -22,11 +22,11 @@ This repository is a check list which is the first term practices in KB IT's you
 | 01 Node.js 기초 | 01_node |  ☐ | ☐ |
 | 02 파일 관리하기 | 02_node | ☐ | ☐ |
 | 01 개발환경 구축, ES6 | vue_01 | ✅ | ✅ |
-| 02 템플릿, 텍스트 바인딩 | vue_02 |  ✅ | ☐ |
-| 03 Vue 인스턴스, 이벤트 | vue_03 | ☐ | ☐ |
+| 02 템플릿, 텍스트 바인딩 | vue_02 |  ✅ | ✅ |
+| 03 Vue 인스턴스, 이벤트 | vue_03 | ✅ | ✅ |
 | 04 부트스트랩 | vue_04 | ☐ | ☐ |
-| 05 스타일 처리 | vue_05 | ☐ | ☐ |
-| 06 단일 파일 컴포넌트 | vue_06 | ☐ | ☐ |
+| 05 스타일 처리 | vue_05 | ✅ | ✅ |
+| 06 단일 파일 컴포넌트 | vue_06 | ✅ | ☐ |
 | 07 컴포넌트 심화 | vue_07 | ☐ | ☐ |
 | 08 Composition API | vue_08 | ✅ | ☐ |
 | 09 라우팅 | vue_09 | ☐ | ☐ |
