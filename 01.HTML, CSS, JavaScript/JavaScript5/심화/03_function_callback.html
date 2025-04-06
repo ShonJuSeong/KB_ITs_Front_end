@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>03_function_callback</title>
+    <script>
+      function repeat(callback) {
+        for (let i = 0; i < 3; i++) {
+          callback(); //콜백 함수를 3번 호출
+        }
+      }
+      let tango = function () {
+        alert("함수 호출");
+      };
+      repeat(tango, 100); //탱고 함수를 100번 호출
+      //함수호출 경고문 3번만 출력
+      //콜백만 매개 변수로 받고 있어서, 뒤의 100번 호출은 무시.
+    </script>
+  </head>
+  <body>
+    <h1>03_function_callback</h1>
+    <p>
+      다음 함수를 콜백함수로 전달하고, 반복 호출할 회수를 매개변수로 전달하여 그
+      회수만큼 콜백함수를 호출하는 JS를 작성하세요.
+    </p>
+  </body>
+</html>
