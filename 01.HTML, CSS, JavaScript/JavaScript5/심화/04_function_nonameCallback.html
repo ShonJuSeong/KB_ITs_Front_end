@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>04_function_nonameCallback</title>
+    <script>
+      function repeat(callback) {
+        for (let i = 0; i < 3; i++) {
+          callback(); //콜백 함수를 3번 호출
+        }
+      }
+
+      repeat(function () {
+        alert("함수 호출");
+      });
+
+      //함수호출 경고문 3번만 출력
+    </script>
+  </head>
+  <body>
+    <h1>04_function_nonameCallback</h1>
+    <p>function () { alert('함수 호출'); };</p>
+    <p>위의 예제를 익명 함수로 콜백함수를 정의하는것 으로 변경하세요.</p>
+  </body>
+</html>
