@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>join.html</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>회원가입</legend>
+        <!-- <table border="1"> -->
+        <table>
+          <tbody>
+            <tr>
+              <th>사용자 ID</th>
+              <td>
+                <input type="text" />
+              </td>
+            </tr>
+            <tr>
+              <th>비밀번호</th>
+              <td><input type="password" /></td>
+            </tr>
+            <tr>
+              <th>비밀번호 확인</th>
+              <td><input type="password" /></td>
+            </tr>
+            <tr>
+              <th>이름</th>
+              <td><input type="text" /></td>
+            </tr>
+            <tr>
+              <th>성별</th>
+              <td>
+                <input type="radio" name="gender" value="male" />남성<input
+                  type="radio"
+                  name="gender"
+                  value="female"
+                />여성
+              </td>
+            </tr>
+            <tr>
+              <th>취미</th>
+              <td>
+                <input type="checkbox" />축구<input type="checkbox" />야구
+                <input type="checkbox" />배구 <input type="checkbox" />농구
+              </td>
+            </tr>
+            <tr>
+              <th>email</th>
+              <td><input type="text" /></td>
+            </tr>
+            <tr>
+              <th>역할</th>
+              <td>
+                <select>
+                  <option>ADMIN</option>
+                  <option>관리자</option>
+                  <option>일반회원</option>
+                </select>
+              </td>
+            </tr>
+
+            <td>
+              <input type="submit" value="확인" />
+              <input type="reset" value="다시쓰기" />
+            </td>
+          </tbody>
+        </table>
+      </fieldset>
+    </form>
+  </body>
+</html>
