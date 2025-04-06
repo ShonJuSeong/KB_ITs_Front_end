@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>01_condition_ifelseif</title>
+    <script>
+      let date = new Date();
+      let hours = date.getHours();
+
+      if (hours < 5) {
+        alert("잠을자렴...");
+      } else if (5 <= hours && hours < 7) {
+        alert("준비");
+      } else if (7 <= hours && hours < 9) {
+        alert("출근");
+      } else if (9 <= hours && hours < 12) {
+        alert("빈둥빈둥");
+      } else if (12 <= hours && hours < 14) {
+        alert("식사");
+      } else {
+        alert("여러가지 업무를 수행합니다.");
+      }
+    </script>
+  </head>
+  <body>
+    <h1>01_condition_ifelseif</h1>
+    <p>
+      Date 객체를 생성하여 현재시간을 구하고, 해당 시간 구간에 해당하는 문자열을
+      alert 창으로 출력하는 condition_ifelseif.html을 작성하세요.
+    </p>
+    <p>● 5시미만: 잠을자렴…</p>
+    <p>● 5시이상7시미만: 준비</p>
+    <p>● 7시이상9시미만: 출근</p>
+    <p>● 9시이상12시미만: 빈둥빈둥</p>
+    <p>● 12시이상14시미만: 식사</p>
+    <p>● 14시이상: 여러가지 업무를 수행합니다.</p>
+  </body>
+</html>
