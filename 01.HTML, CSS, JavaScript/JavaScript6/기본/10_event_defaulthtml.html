@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Traditional Event -Default Event</title>
+    <script>
+      window.onload = function () {
+        let button = document.getElementById("button");
+        //문서 객체 선언 및 이벤트 연결
+        button.onclick = function () {
+          return false;
+          // 기본 이벤트 제거
+        };
+      };
+    </script>
+  </head>
+  <body>
+    <a id="button" href="https://www.naver.com">버튼</a>
+  </body>
+</html>
