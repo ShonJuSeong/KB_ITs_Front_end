@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>05_control_style</title>
+    <script>
+      //이벤트 연결
+      window.onload = function () {
+        //문서 객체
+        let output = "";
+        for (let i = 0; i < 256; i++) {
+          output += "<div></div>";
+        }
+        document.body.innerHTML = output;
+        //문서 객체
+        let divs = document.querySelectorAll("div");
+        for (let i = divs.length; i >= 0; i--) {
+          //   console.log(
+          //     "i-",
+          //     i,
+          //     "divs.length-",
+          //     divs.length,
+          //     "divs.length-i",
+          //     divs.length - i
+          //   );
+          //변수 선언
+          let div = divs[divs.length - i];
+          //div 스타일
+          div.style.height = "2px";
+          div.style.background = "rgb(" + i + "," + i + "," + i + ")";
+        }
+      };
+    </script>
+  </head>
+  <body></body>
+</html>
