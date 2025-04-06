@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>02-13</title>
+    <script>
+      let obj = { result: 0 };
+      obj.add = function (x, y) {
+        function inner() {
+          this.result = x + y;
+        }
+        inner();
+      };
+      obj.add(3, 4);
+      console.log(obj);
+      console.log(result);
+    </script>
+  </head>
+  <body>
+    <h1>02-13</h1>
+  </body>
+</html>
