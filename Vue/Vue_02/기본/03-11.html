@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>파일명</title>
+  </head>
+  <body>
+ <div id="app">
+잔고: <input v-model="balance"/>
+ <br/>
+회원님의 등급:
+<span v-if="balance >= 1000000">Gold</span>
+<span v-else-if="balance >= 500000">Silver</span>
+<span v-else-if="balance >= 200000">Bronze</span>
+<span v-else>Basic</span>
+<script src="https://unpkg.com/vue"></script>
+ <script>
+ let vm = Vue.createApp({
+ name: "App",
+ data() {
+ return { balance: 0 };
+ }
+ }).mount('#app');
+ </script>
+  </body>
+</html>
+
+<!-- 예금액을
+1000000, 500000, 200000 구간에 따라 Gold, Silver, Bronze, Basic으로 구분하여
+출력하도록 다음 코드를 완성하세요 -->
