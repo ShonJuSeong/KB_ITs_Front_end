@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>05-position_absoluteLeftTop</title>
+  </head>
+  <style>
+    .box1 {
+      position: absolute;
+      height: 100px;
+      width: 100px;
+      top: 0;
+      left: 0;
+      background-color: red;
+    }
+    .box2 {
+      position: absolute;
+      height: 100px;
+      width: 100px;
+      top: 50px;
+      left: 50px;
+      background-color: blue;
+    }
+    .box3 {
+      position: absolute;
+      height: 400px;
+      width: 100px;
+      top: 100px;
+      left: 100px;
+      background-color: green;
+    }
+    .blank {
+      height: 100px;
+      width: 300px;
+      border: 5px solid black;
+      position: relative;
+      overflow: scroll;
+    }
+  </style>
+
+  <body>
+    <h1>Lorem ipsum dolor sit amet consectetur</h1>
+    <div class="blank">
+      <div class="box nox">
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box3"></div>
+      </div>
+    </div>
+    <h1>Lorem ipsum dolor sit amet consectetur</h1>
+  </body>
+</html>
