@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>image_basic.html</title>
+  </head>
+  <body>
+    <img
+      src="./스크린샷 2025-03-05 232822.png"
+      alt="그림이 존재하지 않습니다."
+    />
+    <img src="./?????????????.png" alt="그림이 존재하지 않습니다." />
+  </body>
+</html>
