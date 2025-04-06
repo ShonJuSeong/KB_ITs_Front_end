@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>14.etc_structure</title>
+    <style>
+      li {
+        float: left;
+        list-style: none;
+        height: 100px;
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      li:first-child {
+        border-radius: 20px 0 0 20px;
+      }
+      li:last-child {
+        border-radius: 0 20px 20px 0;
+      }
+      li:nth-child(2n) {
+        background-color: red;
+      }
+      li:nth-child(2n + 1) {
+        background-color: brown;
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li>첫번째</li>
+      <li>두번째</li>
+      <li>세번째</li>
+      <li>네번째</li>
+      <li>다섯번째</li>
+      <li>여섯번째</li>
+      <li>일곱번째</li>
+    </ul>
+  </body>
+</html>
