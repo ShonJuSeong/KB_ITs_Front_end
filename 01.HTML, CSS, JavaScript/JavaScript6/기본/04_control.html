@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>04_control</title>
+    <script>
+      //이벤트 연결
+      window.onload = function () {
+        //변수 선언
+        let output = "";
+        for (let i = 0; i < 10; i++) {
+          output += "<h1>Header - " + i + "</h1>";
+        }
+        // document.body.textContent = output;  //그냥 글자로 넣기
+        document.body.innerHTML = output; //태그로 인식해서 넣기
+      };
+    </script>
+  </head>
+  <body></body>
+</html>
