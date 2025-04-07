@@ -5,7 +5,7 @@ This repository is a check list which is the first term practices in KB IT's you
 ---
 - complete: ✅, uncomplete: ☐
 
-## 01 웹 표준 HTML/CSS/JavaScript
+## 01.HTML, CSS, JavaScript
 | 항목 | 디렉토리 명 | 기본 | 심화 |
 |------|:----:|:----:|:----:|
 | 01 HTML 기본 태그 | 01_html | ✅ | ✅ |
@@ -16,7 +16,7 @@ This repository is a check list which is the first term practices in KB IT's you
 | 06 문서 객체 모델 | javascript 6 |  ✅ | ✅ |
 
 
-## 02 웹 인터페이스 구축을 위한 Vue.js
+## Vue.js
 | 항목 | 디렉토리 명 | 기본 | 심화 |
 |------|:----:|:----:|:----:|
 | 01 Node.js 기초 | node_01 |  ✅ | ☐ |
